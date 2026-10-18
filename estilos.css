@@ -1,0 +1,79 @@
+:root {
+  --azul-sara: #0756a5;
+  --azul-oscuro: #06427f;
+  --amarillo-sara: #ffdf00;
+  --fondo: #f5f7fa;
+}
+
+body {
+  background-color: var(--fondo) !important;
+  color: #252525;
+}
+
+.navbar.bg-dark,
+footer.bg-dark {
+  background-color: var(--azul-sara) !important;
+}
+
+.navbar-brand {
+  color: var(--amarillo-sara) !important;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--amarillo-sara) !important;
+}
+
+.bg-primary {
+  background-color: var(--azul-sara) !important;
+}
+
+.btn-primary {
+  background-color: var(--azul-sara);
+  border-color: var(--azul-sara);
+}
+
+.btn-primary:hover {
+  background-color: var(--azul-oscuro);
+  border-color: var(--azul-oscuro);
+}
+
+.btn-outline-primary {
+  color: var(--azul-sara);
+  border-color: var(--azul-sara);
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: var(--azul-sara);
+}
+
+.btn-warning {
+  background-color: var(--amarillo-sara);
+  border-color: var(--amarillo-sara);
+  color: #222;
+}
+
+.card {
+  border: 1px solid #e1e6ed;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 5%);
+}
+
+.card h2,
+.card h3 {
+  color: var(--azul-oscuro);
+}
+
+a {
+  color: var(--azul-sara);
+}
+
+a:hover {
+  color: var(--azul-oscuro);
+}
